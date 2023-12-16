@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Tikdad Edit User</title>
+    </head>
+
+    <body>
+        <form name="editUser-box" id="editUser-box" class="editUser-box">
+            <input class="editUser-box__input" type="text" placeholder="نام" />
+
+            <input
+                class="editUser-box__input"
+                type="text"
+                placeholder="نام خانوادگی"
+            />
+
+            <input
+                class="editUser-box__input"
+                type="password"
+                placeholder="رمز عبور"
+            />
+
+            <div class="editUser-box__select-box">
+                <select name="post" id="post" class="editUser-box__select">
+                    <option value="سمت">سمت</option>
+                    <option value="کارشناس">کارشناس</option>
+                    <option value="کارمند">کارمند</option>
+                </select>
+                <span class="editUser-box__select-icon">&#10094;</span>
+            </div>
+
+            <div class="editUser-box__btn-container">
+                <button class="editUser-box__btn editUser-box__btn--white">
+                    انصراف
+                </button>
+                <button class="editUser-box__btn editUser-box__btn--purple">
+                    ذخیره
+                </button>
+            </div>
+        </form>
+    </body>
+</html>
